@@ -101,14 +101,19 @@ body {
   form textarea {
     padding: 1rem;
     background: #e7e7e7;
-    outline: none; 
-    border: 2px dashed #1d1d1d;
+    border: none;
     font-size: 12px;
     margin-bottom: 1.3rem;
     font-family: inherit;
     color: #333;
     resize: none;
   }
+  form input:hover,
+  form textarea:hover {
+  border: 2px dashed #1d1d1d;
+  cursor: text;
+}
+
   hr {
     border: none;
     border-top: 1px solid #000000;
