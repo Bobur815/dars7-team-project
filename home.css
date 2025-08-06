@@ -16,7 +16,7 @@
     position: absolute;
     width: 340px;
     padding-right: 55px;
-    margin-top: 120px;
+    margin-top: 318px;
 }
 
 .hey h1 {
@@ -34,6 +34,8 @@
     letter-spacing: 1px;
     overflow: hidden;
     transition: 0.4s;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .hero-btn .icon-svg-div {
@@ -67,8 +69,62 @@
 .text-about {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
+    padding: 0 150px 0 150px;
+}
 
+.text-about h2 {
+    font-size: 46px;
+}
+
+.text-about p {
+    font-size: 22px;
+}
+
+#input1 {
+    outline: none;
+    border: none;
+    border-top: 1px solid #c5c5c6;
+    background: none;
+}
+
+#input2 {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c5c5c6;
+    background: none;
+}
+
+.go-to-btn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 30px;
+    max-width: 180px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.go-to-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.go-to-btn2 {
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 25px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.go-to-btn2:hover {
+    color: white;
+    background-color: black;
 }
 
 .about-me {
@@ -76,30 +132,57 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .hero {
-  position: relative;
-  width: 100%;
-  height: 400px;       
-  overflow: hidden; 
-  margin-bottom: 80px;   
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 80px;
 }
 
 .hero .hero-bg {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-  display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .hero .hey {
-  position: relative; 
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-btn {
-  display: inline-flex;
+    display: inline-flex;
+}
+
+.insert {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.insert h2 {
+    font-size: 34px;
+}
+
+.hr {
+    width: 700px;
+}
+
+.hr hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(85, 85, 85, 0.3);
+    width: 100%;
 }
