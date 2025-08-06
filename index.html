@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
-        <nav class="header-nav">
-            <img src="./uploads/logo.svg" alt="">
+    <nav class="header-nav">
+        <div class="head-div">
+            <img src="./uploads/logo.svg" alt="" id="home-icon">
             <div class="sections">
                 <ul>
-                    <a href="">HOME</a>
-                    <a href="">PORTFOLIO</a>
-                    <a href="">CONTACT ME</a>
+                    <li><a href="./home.html" data-view class="active">HOME</a></li>
+                    <li><a href="./portfolio.html" data-view>PORTFOLIO</a></li>
+                    <li><a href="./contact-me.html" data-view>CONTACT ME</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <main id="app-view"></main>
+
+    <footer class="footer">
+        <div class="head-div">
+            <div class="img-div">
+                <img src="./uploads/img/logo-white.svg" alt="" id="home-icon">
+                <div class="sections">
+                    <ul>
+                        <li><a href="./home.html" data-view>HOME</a></li>
+                        <li><a href="./portfolio.html" data-view>PORTFOLIO</a></li>
+                        <li><a href="./contact-me.html" data-view>CONTACT ME</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icons-div">
+                <img src="./uploads/img/social/github.svg" alt="">
+                <img src="./uploads/img/social/twitter.svg" alt="">
+                <img src="./uploads/img/social/linkedin.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
