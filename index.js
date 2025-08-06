@@ -13,6 +13,16 @@ async function loadView(url) {
         if (!res.ok) throw new Error(`Failed to load ${url}`);
         const html = await res.text();
         viewContainer.innerHTML = html;
+
+        const sendMessageBtn = document.getElementById('send-message-btn');
+        if (sendMessageBtn) {
+            sendMessageBtn.addEventListener('click', (e) => {
+                e.preventDefault(); 
+                loadView('./home.html');
+                history.pushState(null, '', './home.html');
+            });
+        }
+
     } catch (err) {
         viewContainer.innerHTML = `<p style="color:red">Error loading page.</p>`;
         console.error(err);
