@@ -1,0 +1,15 @@
+.main-div{
+    width: 100%;
+    padding-left: 450px;
+    padding-right: 450px;
+    position: relative;
+}
+
+.main-div img{
+    overflow: hidden;
+}
+
+.hey{
+    background-color: white;
+    position: absolute;
+}
