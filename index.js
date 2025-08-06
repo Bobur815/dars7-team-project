@@ -1,6 +1,24 @@
 
 const viewContainer = document.getElementById('app-view');
 const homeIcon = document.getElementById('home-icon')
+const goToBtn = document.querySelector('.go-to-btn')
+const goToBtn2 = document.querySelector('.go-to-btn2')
+const viewButton = document.querySelector('.view-button')
+
+viewButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    loadView('./contact-me.html');
+})
+
+goToBtn.addEventListener('click', (e) => {
+    e.preventDefault()
+    loadView('./portfolio.html');
+})
+
+goToBtn2.addEventListener('click', (e) => {
+    e.preventDefault()
+    loadView('./contact-me.html');
+})
 
 homeIcon.addEventListener('click', (e) => {
     e.preventDefault()
