@@ -134,11 +134,13 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  form button:hover {
-    background-color: #ffffff;
-    color: black;
-    border: black solid 1px;
-  }
+  input:focus,
+  textarea:focus {
+  border: 2px dashed black;
+  outline: none; 
+}
+
+  
   
   @media (max-width: 768px) {
     .container {
