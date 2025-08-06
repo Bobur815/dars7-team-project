@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            gap: 40px;
+            margin-bottom: 90px;
+            margin-top: 40px;
+        }
+
+        .project {
+            display: flex;
+            justify-content: start;
+            margin: 0 auto;
+            width: 100%;
+            gap: 120px;
+        }
+
+        .project1 {
+            display: flex;
+            justify-content: end;
+            margin: 0 auto;
+            width: 80%;
+            gap: 120px;
+        }
+
+
+        .project-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-content {
+            padding: 60px 0;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .project-content h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #2d2d2d;
+        }
+
+        .project-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .view-button {
+            display: inline-block;
+            padding: 12px 24px;
+            border: 1px solid #333;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            letter-spacing: 2px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .view-button:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        .insert {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .insert h2 {
+            font-size: 34px;
+        }
+
+        .hr {
+            width: 700px;
+        }
+
+        .hr hr {
+            border: none;
+            height: 1px;
+            background-color: rgba(85, 85, 85, 0.3);
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="project">
+            <div class="project-image">
+                <img src="./uploads/img/portfolio-index/manage.jpg" alt="Manage Project Screenshot" />
+            </div>
+            <div class="project-content">
+                <h2>Manage</h2>
+                <p>
+                    This project required me to build a fully <br> responsive landing page to the designs <br> provided.
+                    I used HTML5, along with CSS Grid <br> and JavaScript for the areas that required <br>
+                    interactivity,
+                    such as the testimonial slider.
+                </p>
+                <a href="#" class="view-button">VIEW PROJECT</a>
+            </div>
+        </section>
+
+        <section class="project1">
+            <div class="project-content">
+                <h2>Bookmark</h2>
+                <p>
+                    This project required me to build a fully <br> responsive landing page to the designs <br> provided.
+                    I used HTML5, along with CSS Grid <br> and JavaScript for the areas that required <br>
+                    interactivity,
+                    such as the testimonial slider.
+                </p>
+                <a href="#" class="view-button">VIEW PROJECT</a>
+            </div>
+            <div class="project-image">
+                <img src="./uploads/img/portfolio-index/bookmark.jpg" alt="Manage Project Screenshot" />
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-image">
+                <img src="./uploads/img/portfolio-index/insure.jpg" alt="Manage Project Screenshot" />
+            </div>
+            <div class="project-content">
+                <h2>Insure</h2>
+                <p>
+                    This project required me to build a fully <br> responsive landing page to the designs <br> provided.
+                    I used HTML5, along with CSS Grid <br> and JavaScript for the areas that required <br>
+                    interactivity,
+                    such as the testimonial slider.
+                </p>
+                <a href="#" class="view-button">VIEW PROJECT</a>
+            </div>
+        </section>
+
+        <section class="project1">
+            <div class="project-content">
+                <h2>Fylo</h2>
+                <p>
+                    This project required me to build a fully <br> responsive landing page to the designs <br> provided.
+                    I used HTML5, along with CSS Grid <br> and JavaScript for the areas that required <br>
+                    interactivity,
+                    such as the testimonial slider.
+                </p>
+                <a href="#" class="view-button">VIEW PROJECT</a>
+            </div>
+            <div class="project-image">
+                <img src="./uploads/img/portfolio-index/fylo.jpg" alt="Manage Project Screenshot" />
+            </div>
+        </section>
+
+        <div class="insert">
+            <h2>Interested in doing <br> a project together?</h2>
+            <div class="hr">
+                <hr>
+            </div>
+            <a href="./contact-me.html" class="view-button">CONTACT ME</a>
+        </div>
+    </main>
+</body>
+
+</html>

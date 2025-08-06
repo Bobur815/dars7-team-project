@@ -11,6 +11,11 @@ body {
     flex: 1 0 auto;
 }
 
+#app-view {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
 .header-nav {
     justify-content: center;
     justify-items: center;
